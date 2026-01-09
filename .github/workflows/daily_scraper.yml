@@ -4,7 +4,12 @@ on:
   schedule:
     # Runs at 05:00 UTC every day (approx 6:00/7:00 AM Czech time)
     - cron: '0 5 * * *'
-  workflow_dispatch: # This adds a "Run" button so you can test it manually
+  workflow_dispatch:
+    inputs:
+      custom_date:
+        description: 'Target Date (Format: DDMMYYYY, e.g., 20102024)'
+        required: false
+        default: ''
 
 jobs:
   scrape_and_commit:
@@ -28,7 +33,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Scraper
-        run: python eru_scraper.py  # Make sure this matches your filename!
+        run: python eru_scraper.py "${{ github.event.inputs.custom_date }}"
 
       - name: Commit and Push Changes
         run: |
