@@ -33,6 +33,7 @@ else:
 
 urladdress = f"https://eru.gov.cz/seznam-drzitelu-licenci-uznani-opravneni-podnikat-ke-dni-{dt}"
 
+logging.info(f"Trying url: {urladdress}")
 
 # Spoof a browser header to prevent 403 Forbidden errors
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
