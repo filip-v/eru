@@ -2043,3 +2043,5 @@
 2024-12-27 15:30:02,643 Stranka neexistuje: https://eru.gov.cz/seznam-drzitelu-licenci-uznani-opravneni-podnikat-ke-dni-27122024
 2024-12-27 20:30:02,195 Stranka neexistuje: https://eru.gov.cz/seznam-drzitelu-licenci-uznani-opravneni-podnikat-ke-dni-27122024
 2026-01-09 09:21:47,530 - ERROR - Hlavni proces selhal: HTTP Error 404: Not Found
+2026-01-09 09:29:43,117 - INFO - Using manual date input: 20251219
+2026-01-09 09:29:43,820 - ERROR - Hlavni proces selhal: HTTP Error 404: Not Found
