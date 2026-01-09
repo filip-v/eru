@@ -1,3 +1,4 @@
+import sys
 import xml.etree.ElementTree as ET
 import datetime
 import logging
@@ -21,9 +22,17 @@ logging.basicConfig(
     ]
 )
 
-# 2. Prepare URL with current date
-dt = datetime.date.today().strftime('%d%m%Y')
+# 2. Handle Date Input
+# Check if a date was passed from GitHub Actions
+if len(sys.argv) > 1 and sys.argv[1].strip() != "":
+    dt = sys.argv[1].strip()
+    logging.info(f"Using manual date input: {dt}")
+else:
+    dt = datetime.date.today().strftime('%d%m%Y')
+    logging.info(f"Using default current date: {dt}")
+
 urladdress = f"https://eru.gov.cz/seznam-drzitelu-licenci-uznani-opravneni-podnikat-ke-dni-{dt}"
+
 
 # Spoof a browser header to prevent 403 Forbidden errors
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
