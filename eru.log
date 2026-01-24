@@ -2091,3 +2091,6 @@
 2026-01-23 05:18:57,206 - INFO - Using default current date: 23012026
 2026-01-23 05:18:57,206 - INFO - Trying url: https://eru.gov.cz/seznam-drzitelu-licenci-uznani-opravneni-podnikat-ke-dni-23012026
 2026-01-23 05:18:57,769 - ERROR - Hlavni proces selhal: HTTP Error 404: Not Found
+2026-01-24 05:12:57,816 - INFO - Using default current date: 24012026
+2026-01-24 05:12:57,816 - INFO - Trying url: https://eru.gov.cz/seznam-drzitelu-licenci-uznani-opravneni-podnikat-ke-dni-24012026
+2026-01-24 05:12:58,417 - ERROR - Hlavni proces selhal: HTTP Error 404: Not Found
