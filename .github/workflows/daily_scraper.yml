@@ -3,7 +3,7 @@ name: ERU Data Scraper
 on:
   schedule:
     # Runs at 05:00 UTC every day (approx 6:00/7:00 AM Czech time)
-    - cron: '0 5 * * *'
+    - cron: '0 7 * * *'
   workflow_dispatch:
     inputs:
       custom_date:
