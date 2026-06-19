@@ -2544,3 +2544,7 @@
 2026-06-18 11:42:59,882 - INFO - Using default current date: 18062026
 2026-06-18 11:42:59,882 - INFO - Trying url: https://eru.gov.cz/seznam-drzitelu-licenci-uznani-opravneni-podnikat-ke-dni-18062026
 2026-06-18 11:43:00,190 - ERROR - Hlavni proces selhal: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1017)>
+2026-06-19 11:57:36,708 - INFO - Using default current date: 19062026
+2026-06-19 11:57:36,708 - INFO - Trying url: https://eru.gov.cz/seznam-drzitelu-licenci-uznani-opravneni-podnikat-ke-dni-19062026
+2026-06-19 11:57:37,123 - INFO - Stranka stazena: https://eru.gov.cz/seznam-drzitelu-licenci-uznani-opravneni-podnikat-ke-dni-19062026
+2026-06-19 11:58:06,767 - INFO - Ulozeno 38217 zaznamu do /home/runner/work/eru/eru/eru_licence_zpracovane.xlsx
