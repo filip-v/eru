@@ -3025,3 +3025,6 @@
 2026-11-20 16:28:27,155 - INFO - Trying url: https://eru.gov.cz/seznam-drzitelu-licenci-uznani-opravneni-podnikat-ke-dni-20112026
 2026-11-20 16:28:27,734 - INFO - Stranka stazena: https://eru.gov.cz/seznam-drzitelu-licenci-uznani-opravneni-podnikat-ke-dni-20112026
 2026-11-20 16:28:50,837 - INFO - Ulozeno 38582 zaznamu do /home/runner/work/eru/eru/eru_licence_zpracovane.xlsx
+2026-11-21 15:43:42,719 - INFO - Using default current date: 21112026
+2026-11-21 15:43:42,719 - INFO - Trying url: https://eru.gov.cz/seznam-drzitelu-licenci-uznani-opravneni-podnikat-ke-dni-21112026
+2026-11-21 15:43:43,400 - ERROR - Hlavni proces selhal: HTTP Error 404: Not Found
